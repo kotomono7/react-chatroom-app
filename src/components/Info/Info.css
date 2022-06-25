@@ -5,6 +5,7 @@
 	height: 75px;
 	width: 100%;
 	padding-inline: 5%;
+	background-color: var(--pure-white);
 }
 
 .info-bar a {
@@ -28,7 +29,7 @@
 	line-height: 36px;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
 	.info-bar {
 		justify-content: space-between;
 	}

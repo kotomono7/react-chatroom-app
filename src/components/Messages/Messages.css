@@ -1,9 +1,7 @@
 .messages {
-	height: 30rem;
-	width: 100%;
+	flex: auto;
 	overflow: auto;
-	padding-top: 5px;
-	padding-bottom: 5%;
+	height: 27rem;
 }
 
 .content {

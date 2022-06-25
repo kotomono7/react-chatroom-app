@@ -1,16 +1,16 @@
 .join-outer-container {
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	text-align: center;
 	height: 100vh;
-	align-items: center;
 	background-color: var(--pure-white);
 }
 
 .join-inner-container {
 	display: flex;
 	flex-direction: column;
-	width: min(100%, 30rem);
+	width: min(80%, 25rem);
 }
 
 .join-chat {
@@ -104,6 +104,6 @@ join-btn:focus {
 
 @media (max-width: 480px) {
 	.join-inner-container {
-		width: 90%;
+		width: 80%;
 	}
 }
