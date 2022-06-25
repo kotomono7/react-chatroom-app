@@ -18,7 +18,8 @@ export default function Chat() {
 	const [message, setMessage] = useState("");
 	const [messages, setMessages] = useState([]);
 
-	const ENDPOINT = "http://localhost:5000";
+	// const ENDPOINT = "http://localhost:5000";
+	const ENDPOINT = "https://kotomono.herokuapp.com/";
 
 	useEffect(() => {
 		const { username, roomId } = location.state;
