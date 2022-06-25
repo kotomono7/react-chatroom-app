@@ -21,6 +21,7 @@
 	height: 100%;
 	min-height: 100vh;
 	padding-block: 30px;
+	padding-bottom: 30px;
 }
 
 .join-chat .input {
@@ -51,7 +52,6 @@
 
 .join-chat a {
 	text-decoration: none;
-	padding-bottom: 30px;
 	width: 100%;
 }
 
